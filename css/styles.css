@@ -1,0 +1,199 @@
+
+body{
+    color: #40514E;
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1{
+    color: #66BFBF;
+    /* font-size: 562.5%;   100% = 16px, using % makes the size dynamic when the user changes the browser zoom       
+                            1em  = 16px   */
+    font-size: 5.625rem;   /* rem = Doesn't inherit and dynamic fontsize from perhaps a font-size in body{}, feature of CSS3  */                      
+    font-family: 'Sacramento', cursive;
+    margin: 50px auto 0 auto;
+}  
+
+h2{
+    color: #66BFBF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;   /* 40px  */                          
+    font-weight: normal;
+    /*margin:auto auto auto auto;    */
+    padding-bottom: 10px;
+  }
+
+h3{
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p{
+    line-height: 2;
+}
+
+hr{
+    border-style: dotted none none none;
+    border-color: #EAF6F6;
+    border-width: 4px;
+    height: 0px;
+    width:5%;
+    margin:60px auto;
+}
+
+
+/******************** Class *************************/
+
+/*.profile{
+    margin-bottom: 50px;
+}
+*/
+
+.intro{
+    margin: auto;    
+    width:30%;
+}
+
+.h2-normal{
+    margin-top: 0;
+    font-weight: lighter;
+}
+
+
+.top-container{
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top: 100px;
+}
+
+.top-cloud{
+    position: absolute;  /* Now its taken out of the flow, so Mountain is centered */
+    right: 300px; 
+    top: 30px;
+}
+.bottom-cloud{
+    position: absolute;  /* Now its taken out of the flow, so Mountain is centered */
+    left: 250px;
+    bottom: 300px;
+}
+
+
+/* ---------------------------------------------------------- */
+
+.middle-container{
+    background-color: white;
+    margin: 50px 0;
+}
+
+
+.skill-row{
+    /*display: inline-block;*/
+    margin: 100px auto 100px auto;
+    width:50%;
+    text-align: left;
+
+}
+
+.skill-web-img{
+    /*transform: scale(0.75);*/
+    width:15%;                      /* 25% of parent .skill-row - which is 50% of the page width */
+    float: left;
+    margin-right: 30px;
+}
+
+
+.skill-plane-img{
+    /*transform: scale(0.15);*/
+    width:15%;
+    float: right;
+    margin-left:30px;
+}
+
+/*.wrap-below{
+    clear: right;
+}
+*/
+
+/* ---------------------------------------------------------- */
+
+.contact-me{
+    margin-bottom: 40px;
+    
+}
+
+.contact-msg{
+    margin: 40px auto 60px;    
+    width:40%;
+}
+
+
+.btn {
+    background: #11CDD4;
+    background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+    background-image: linear-gradient(to bottom, #11CDD4, #11999E);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    padding: 10px;
+    box-shadow: 1px 1px 2px 0px #000000;
+    -webkit-box-shadow: 1px 1px 2px 0px #000000;
+    -moz-box-shadow: 1px 1px 2px 0px #000000;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid #337FED 2px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+}
+    
+.btn:hover {
+    border: solid #337FED 2px;
+    background: #30E3CB;
+    background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: linear-gradient(to bottom, #30E3CB, #2BC4AD);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.bottom-container{
+    padding-top: 30px;
+    background-color: #66BFBF;  
+}
+
+.bottom-references{
+    background-color: #66BFBF;  
+    margin:0;   
+    font-size: 12px;   /* 40px  */    
+    padding-bottom: 1px;
+}
+
+.footer-link{               /* We could have achieved the same using the <a> tag */
+    color: #11999E;
+    margin: 10px 30px 10px 30px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer-link:hover{
+    color:white;
+}
+
+.copyright{
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0 10px 0;
+}
+
